@@ -1,0 +1,56 @@
+.api-doc-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .api-doc-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .api-doc-form textarea, .api-doc-form input[type="text"], .api-doc-form input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .api-doc-form .form-check {
+    margin-bottom: 10px;
+  }
+  
+  .api-doc-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .api-doc-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .api-doc-form .spinner-border {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .explanation-section, .disclaimer-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .response-display {
+    margin-top: 15px;
+    background-color: #eef;
+    padding: 10px;
+    border-radius: 5px;
+  }

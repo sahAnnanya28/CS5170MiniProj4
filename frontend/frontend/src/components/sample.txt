@@ -1,0 +1,19 @@
+addBook(bookDetails: Book): Observable<Book>
+getAllBooks(): Observable<Book[]>
+getBookById(bookId: number): Observable<Book>
+updateBook(bookId: number, bookDetails: Book): Observable<Book>
+deleteBook(bookId: number): Observable<void>
+registerUser(userDetails: User): Observable<User>
+getUserDetails(userId: number): Observable<User>
+updateUser(userId: number, userDetails: User): Observable<User>
+deleteUser(userId: number): Observable<void>
+borrowBook(userId: number, bookId: number): Observable<BorrowRecord>
+returnBook(borrowId: number): Observable<BorrowRecord>
+getAllBorrowRecords(): Observable<BorrowRecord[]>
+getBorrowRecordsByUser(userId: number): Observable<BorrowRecord[]>
+searchBooks(query: string): Observable<Book[]>
+searchUsers(query: string): Observable<User[]>
+calculateFine(borrowId: number): Observable<FineDetail>
+reserveBook(userId: number, bookId: number): Observable<Reservation>
+sendOverdueReminder(borrowId: number): Observable<void>
+notifyOnAvailability(bookId: number, userId: number): Observable<void>
